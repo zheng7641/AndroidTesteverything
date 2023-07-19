@@ -13,13 +13,7 @@
         android:theme="@style/Theme.AndroidTesteverything"
         tools:targetApi="31">
         <activity
-            android:name=".activity_image_text"
-            android:exported="false" />
-        <activity
-            android:name=".ImageButtonActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activity_image_scale"
+            android:name=".CalculatorActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

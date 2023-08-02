@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutId="first"
+        android:shortcutLongLabel="@string/app_name"
+        android:shortcutShortLabel="@string/app_name">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.example.androidtesteverything._0200intent.ActRequestActivity"
+            android:targetPackage="com.example.androidtesteverything" />
+
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutId="second"
+        android:shortcutLongLabel="@string/app_name"
+        android:shortcutShortLabel="@string/app_name">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.example.androidtesteverything._0200intent.ActResponseActivity"
+            android:targetPackage="com.example.androidtesteverything" />
+
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

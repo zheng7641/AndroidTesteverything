@@ -2,6 +2,7 @@ package com.example.androidtesteverything.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.ComponentName;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -24,6 +25,17 @@ public class ActStartActivity extends AppCompatActivity implements View.OnClickL
 
     @Override
     public void onClick(View v) {
+        //1、在intent的构造函数中指定
+        //Intent intent = new Intent(this, ActFinishActivity.class);
+        //2、调用意图对象的setClass方法指定
+        Intent intent = new Intent();
+//        intent.setClass(this, ActFinishActivity.class);
+        //3、调用意图对象的setComponent方法指定
+//        ComponentName componentName = new ComponentName(this, ActFinishActivity.class);
+//        new ComponentName("", "");//反射，系统应用
+//        intent.setComponent(componentName);
+
+
         startActivity(new Intent(this, ActFinishActivity.class));
     }
 

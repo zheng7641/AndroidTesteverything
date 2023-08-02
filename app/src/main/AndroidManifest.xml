@@ -13,16 +13,32 @@
         android:theme="@style/Theme.AndroidTesteverything"
         tools:targetApi="31">
         <activity
-            android:name=".activity.JumpSecondActivity"
-            android:exported="false" />
+            android:name="._0200intent.ActRequestActivity"
+            android:exported="true" />
+
         <activity
-            android:name=".activity.JumpFirstActivity"
+            android:name="._0200intent.ActResponseActivity"
+            android:exported="true" />
+
+<!--        <activity-->
+<!--            android:name="._0200intent.ReadStringActivity"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--            <meta-data android:name="versionName" android:value="versionName"/>-->
+<!--        </activity>-->
+        <activity
+            android:name="._0200intent.ReadStringActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts"/>
         </activity>
     </application>
 

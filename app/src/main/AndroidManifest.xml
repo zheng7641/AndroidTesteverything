@@ -12,33 +12,63 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidTesteverything"
         tools:targetApi="31">
-        <activity
-            android:name="._0200intent.ActRequestActivity"
-            android:exported="true" />
-
-        <activity
-            android:name="._0200intent.ActResponseActivity"
-            android:exported="true" />
-
 <!--        <activity-->
-<!--            android:name="._0200intent.ReadStringActivity"-->
-<!--            android:exported="true">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
-<!--            <meta-data android:name="versionName" android:value="versionName"/>-->
-<!--        </activity>-->
+<!--            android:name="._0400控件.TimePickerActivity"-->
+<!--            android:exported="false" />-->
+        <!-- <activity -->
+        <!-- android:name="._0400控件.DatePickerActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name="._0400控件.AlertDialogActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name="._0400控件.EditHideActivity" -->
+        <!-- android:exported="false" /> -->
+        <!--
+         <activity
+            android:name="._0400控件.EditFocusActivity"
+            android:exported="false" />
+        -->
+        <!-- <activity -->
+        <!-- android:name="._0400控件.EditBorderActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name="._0400控件.EditSimpleActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name="._0400控件.RadioHorizontalActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name="._0400控件.SwitchIOSActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name="._0400控件.SwitchDefaultActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name="._0300drawable.CheckBoxActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name="._0300drawable.DrawableStateActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name="._0300drawable.DrawableShapeActivity" -->
+        <!-- android:exported="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- <meta-data -->
+        <!-- android:name="android.app.shortcuts" -->
+        <!-- android:resource="@xml/shortcuts" /> -->
+        <!-- </activity> -->
         <activity
-            android:name="._0200intent.ReadStringActivity"
+            android:name="._0400控件.TimePickerActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts"/>
         </activity>
     </application>
 
